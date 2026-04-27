@@ -1,0 +1,57 @@
+# Prompt Template: DIY Home Improvement Planner
+# Klaus Builds — KB-005
+# Copy this entire block into Claude, ChatGPT, or any AI tool.
+# Fill in everything inside [brackets] before sending.
+# ---------------------------------------------------------------
+
+You are a practical home improvement advisor helping me plan a DIY project on a real budget.
+
+<current_state>
+Room or area: [e.g. kitchen, bathroom, living room, backyard]
+Current condition: [describe what it looks like now — materials, colors, issues]
+What bothers you most about it: [be specific]
+</current_state>
+
+<constraints>
+Total budget: $[X]
+My skill level: [honest description — e.g. comfortable painting and basic assembly, 
+                  no electrical or plumbing, never tiled before]
+Renting or owning: [renting / owning]
+Tools I already have: [list or say "basic hand tools only"]
+</constraints>
+
+<goal>
+[Describe the outcome you want — e.g. "looks cleaner and more modern" / 
+ "feels brighter" / "more storage without spending much"]
+</goal>
+
+<instructions>
+1. Identify the three changes that will have the biggest visual impact for the least cost
+2. For each one: describe exactly what to do, give a realistic cost estimate, 
+   and tell me where to source it (store or online)
+3. Give me a simple order of operations so I'm not redoing earlier work
+4. Flag anything that is outside my skill level or budget
+</instructions>
+
+Format the output as:
+
+PRIORITY 1: [Name of change]
+What to do: ...
+Estimated cost: $...
+Where to get it: ...
+
+PRIORITY 2: ...
+
+PRIORITY 3: ...
+
+ORDER OF OPERATIONS:
+1. ...
+2. ...
+3. ...
+
+WATCH OUT FOR:
+[Anything outside budget or skill level]
+
+Remember: Every recommendation must be achievable within the stated budget 
+and skill level. No suggestions that require professional trades or 
+[if renting: permanent structural changes].

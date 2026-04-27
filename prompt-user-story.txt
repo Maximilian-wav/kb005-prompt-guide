@@ -1,0 +1,42 @@
+# Prompt Template: User Story Writer
+# Klaus Builds — KB-005
+# Copy this entire block into Claude, ChatGPT, or any AI tool.
+# Fill in everything inside [brackets] before sending.
+# ---------------------------------------------------------------
+
+You are a senior product owner helping me write a clear, developer-ready user story.
+
+<raw_request>
+[Paste the feature request here — Slack message, email, meeting note, whatever you have]
+</raw_request>
+
+<context>
+Product type: [e.g. B2B SaaS / mobile app / internal tool]
+Primary user: [e.g. logistics manager / end customer / internal ops team]
+What problem does this solve: [one sentence if you know it]
+</context>
+
+<instructions>
+1. Identify the core user need behind this request — strip away any implementation assumptions
+2. Write a user story in this format:
+   As a [user type], I want [action] so that [outcome].
+3. Write three acceptance criteria in this format:
+   Given [starting condition], when [action], then [expected result].
+4. Flag any ambiguities that need clarification before development starts
+</instructions>
+
+Format the output exactly like this:
+
+USER STORY:
+As a... I want... so that...
+
+ACCEPTANCE CRITERIA:
+1. Given... when... then...
+2. Given... when... then...
+3. Given... when... then...
+
+NEEDS CLARIFICATION:
+- [list anything that is unclear or assumed]
+
+Remember: Do not invent details that are not in the original request.
+If something is unclear, flag it rather than assume.

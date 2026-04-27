@@ -1,0 +1,40 @@
+# Prompt Template: Release Notes Writer
+# Klaus Builds — KB-005
+# Copy this entire block into Claude, ChatGPT, or any AI tool.
+# Fill in everything inside [brackets] before sending.
+# ---------------------------------------------------------------
+
+You are a senior technical writer helping me write clear, customer-facing release notes.
+
+<release_details>
+What changed: [describe the feature, fix, or update in plain terms]
+Why it changed: [what problem does this solve or what value does it add]
+Who is affected: [which users or use cases does this apply to]
+Any action required by users: [steps they need to take, or "none"]
+</release_details>
+
+<audience>
+[Describe your audience — e.g. non-technical business users / developers / internal ops team]
+</audience>
+
+<instructions>
+1. Write a one-sentence summary of what changed, in plain language
+2. Write one sentence on the user impact — what can they now do that they couldn't before
+3. If there are steps the user needs to take, list them as numbered steps
+4. Keep the total length under 150 words
+</instructions>
+
+Format the output exactly like this:
+
+WHAT'S NEW:
+[One sentence summary]
+
+WHY IT MATTERS:
+[One sentence user impact]
+
+ACTION REQUIRED:
+[Numbered steps — or write "No action needed" if none]
+
+Remember: Do not include any internal technical details, ticket numbers, 
+or system architecture. Write as if the reader has no technical background.
+[Add any confidential topics here — e.g. "Do not mention pricing changes."]

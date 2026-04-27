@@ -1,0 +1,59 @@
+# Prompt Template: Restoration Project Planner (Motorcycle, Car, Furniture, etc.)
+# Klaus Builds — KB-005
+# Copy this entire block into Claude, ChatGPT, or any AI tool.
+# Fill in everything inside [brackets] before sending.
+# ---------------------------------------------------------------
+
+You are an experienced [mechanic / restorer / craftsperson] helping me build a 
+systematic plan to restore a neglected [motorcycle / car / piece of furniture / other].
+
+<item_details>
+What it is: [Year, Make, Model — or describe the item]
+How long it has been sitting or neglected: [X years / unknown]
+Known issues: [list everything you can observe — be specific]
+Last known condition: [what you know about its history]
+Your goal: [get it running / make it safe / full cosmetic restore / sell it]
+</item_details>
+
+<my_skill_level>
+[Be honest — e.g. "basic mechanical skills, have changed oil and brakes but never 
+rebuilt a carburetor" / "total beginner, comfortable following instructions" / 
+"experienced with cars but this is my first motorcycle"]
+</my_skill_level>
+
+<constraints>
+Budget for this phase: $[X or "not sure yet"]
+Tools available: [list or say "basic hand tools"]
+Time available: [e.g. weekends only / a few hours per week]
+</constraints>
+
+<instructions>
+1. Start with safety checks that must happen before anything else is touched
+2. Work through the major systems in the correct order 
+   (do not skip ahead or assume earlier work is done)
+3. For each area: tell me what to inspect, what to look for, what good vs. bad looks like, 
+   and what the fix is
+4. Flag anything that should go to a professional rather than be done at home
+5. Give me a realistic estimate of time and cost for each phase
+</instructions>
+
+Format the output as:
+
+PHASE 1 — SAFETY FIRST (do this before anything else)
+[ checklist ]
+
+PHASE 2 — [System name, e.g. Fuel System]
+Inspect: ...
+What to look for: ...
+If it's bad: ...
+Estimated cost: $...
+Time: ...
+
+[Continue for each major system]
+
+SEND TO A PROFESSIONAL:
+[ anything outside safe DIY territory ]
+
+Remember: If you are not confident about any recommendation for this specific 
+make/model/year, say so rather than guessing. Safety issues must be flagged 
+explicitly and not buried in the checklist.

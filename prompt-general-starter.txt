@@ -1,0 +1,47 @@
+# Prompt Template: General Starter (Use This For Anything)
+# Klaus Builds — KB-005
+# Copy this entire block into Claude, ChatGPT, or any AI tool.
+# Fill in everything inside [brackets] before sending.
+# This is your universal starting point. Adapt it to any task.
+# ---------------------------------------------------------------
+
+You are a [role — e.g. experienced mechanic / senior product manager / 
+practical home improvement advisor / patient teacher].
+
+The goal is: [one clear sentence describing the outcome you want]
+
+<context>
+[Paste or describe the raw material you are working with — 
+a document, a situation, a problem, notes, whatever is relevant]
+</context>
+
+<instructions>
+1. [First thing you want the AI to do]
+2. [Second thing]
+3. [Third thing]
+[Add or remove steps as needed. More specific = better output.]
+</instructions>
+
+<example_output>
+[Optional but powerful: paste an example of what a good response looks like.
+Even a rough example dramatically improves the output.]
+</example_output>
+
+Output format: [Describe exactly how you want the response structured —
+e.g. numbered list / table with two columns / short paragraphs / bullet points]
+
+Remember: [Repeat your single most important constraint here.
+e.g. "Keep all recommendations within a $300 budget."
+e.g. "Do not make up details that are not in the input."
+e.g. "Flag anything you are not confident about rather than guessing."]
+
+# ---------------------------------------------------------------
+# HOW TO USE THIS TEMPLATE
+#
+# The more you fill in, the better the output.
+# Minimum viable prompt: Role + Goal + Instructions
+# Best results: All sections filled in with specifics
+#
+# Save your best versions. They become your personal prompt library.
+# Over time, you'll spend less time prompting and more time using the output.
+# ---------------------------------------------------------------
